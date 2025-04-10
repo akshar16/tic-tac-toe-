@@ -14,7 +14,7 @@ This repository contains a Tic-Tac-Toe game implemented using C++ and the SFML (
 
 1.  **Build and Run:** Compile the C++ code using a C++ compiler that supports SFML (e.g., g++ with SFML libraries linked).
     ```bash
-    g++ -o tictactoe main.cpp -lsfml-graphics -lsfml-window -lsfml-system
+     -std=c++17 tic_tac_toe.cpp -o sfml_test -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system
     ```
     *Replace `main.cpp` with the name of your source file.*
     *   Run the executable: `./tictactoe`
