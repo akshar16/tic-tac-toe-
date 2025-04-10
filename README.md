@@ -16,8 +16,8 @@ This repository contains a Tic-Tac-Toe game implemented using C++ and the SFML (
     ```bash
      -std=c++17 tic_tac_toe.cpp -o sfml_test -I/opt/homebrew/include -L/opt/homebrew/lib -lsfml-graphics -lsfml-window -lsfml-system
     ```
-    *Replace `main.cpp` with the name of your source file.*
-    *   Run the executable: `./tictactoe`
+    *Replace `tic_tac_toe.cpp` with the name of your source file.*
+    *   Run the executable: `./tictactoe` or `./sfml`
 2.  **Controls:**
     *   **Move Cursor:** Use the `W`, `A`, `S`, and `D` keys (or the arrow keys) to move the cursor around the Tic-Tac-Toe board.
     *   **Place Mark:**  Press the `Space` key (or the `Enter` key) to place your mark ('X') at the currently selected cell.
